@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.link {
+  /*display: block;*/
+  /*margin-right: 150px;*/
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  /*border: 3px;*/
+  /*border-color: ;*/
+  border: 3px solid #2f1ce4;
+}
+
+.more-detailed {
+  /*display: block;*/
+  /*position: relative;*/
+  padding: 17px;
+  max-height: 100px;
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+  /*margin-left: 220px;*/
+  /*top: -59px;*/
+}
+
+.cotainer {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.email-link {
+  padding-left: 30px;
+  background-image: url('../img/return.png');
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.informations {
+  margin-top: 100px;
+  padding-left: 100px;
+  /*size: 48px; не работает */
+  color: #222020;
+}
+
+.skillbox {
+  padding-left: 180px;
+  /*size: 36px; не работает */
+  color: #2f1ce4;
+  /*margin: 100 0 25 0; не работает */
+}
+
+.list {
+  padding-left: 200px;
+  /*size: 18px; не работает */
+}
+
+.paragraph {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  padding-left: 180px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
